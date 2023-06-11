@@ -30,6 +30,7 @@
 		54832D652A33E57C00ACD817 /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54832D642A33E57C00ACD817 /* LoginViewViewModel.swift */; };
 		54832D672A33E58600ACD817 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54832D662A33E58600ACD817 /* RegisterViewViewModel.swift */; };
 		54832D692A33E5A800ACD817 /* ToDoListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54832D682A33E5A800ACD817 /* ToDoListItemViewModel.swift */; };
+		54832D6B2A36207600ACD817 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54832D6A2A36207600ACD817 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		54832D642A33E57C00ACD817 /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
 		54832D662A33E58600ACD817 /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		54832D682A33E5A800ACD817 /* ToDoListItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewModel.swift; sourceTree = "<group>"; };
+		54832D6A2A36207600ACD817 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				54832D522A33E33D00ACD817 /* LoginView.swift */,
 				54832D542A33E35700ACD817 /* RegisterView.swift */,
 				54832D562A33E3C000ACD817 /* ToDoListItemView.swift */,
+				54832D6A2A36207600ACD817 /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				54832D4D2A33E2D700ACD817 /* ProfileView.swift in Sources */,
 				54832D592A33E4C900ACD817 /* User.swift in Sources */,
 				54832D692A33E5A800ACD817 /* ToDoListItemViewModel.swift in Sources */,
+				54832D6B2A36207600ACD817 /* HeaderView.swift in Sources */,
 				54832D572A33E3C000ACD817 /* ToDoListItemView.swift in Sources */,
 				54832D612A33E55600ACD817 /* ToDoListViewViewModel.swift in Sources */,
 				54832D652A33E57C00ACD817 /* LoginViewViewModel.swift in Sources */,
