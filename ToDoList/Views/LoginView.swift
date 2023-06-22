@@ -10,11 +10,15 @@ import SwiftUI
 struct LoginView: View {
     @State var email = ""
     @State var password = ""
+    
     var body: some View {
         NavigationView {
             VStack {
                 // Header
-                HeaderView()
+                HeaderView(title: "To Do List",
+                           subtitle: "Get things done",
+                           angle: 15,
+                           background: .pink)
                 // Login Form
                 Form {
                     TextField("Email Address", text: $email)
@@ -23,26 +27,22 @@ struct LoginView: View {
                     SecureField("Password", text: $password)
                         .textFieldStyle(DefaultTextFieldStyle())
                     
-                    Button{
-                        // Attempt log in
-                    } label: {
-                        ZStack {
-                            RoundedRectangle(cornerRadius: 10)
-                                .foregroundColor(Color.blue)
-                            
-                            Text("Log In")
-                                .foregroundColor(Color.white)
-                                .bold()
-                        }
+                    TLButton(title: "Log in",
+                             background: .blue
+                    ){
+                        
                     }
+                    .padding()
                 }
+                .offset(y: -50)
+                Spacer()
                 //Create Account
                 VStack {
                     Text("New around here?")
                     
                     NavigationLink("Create An Account", destination: RegisterView())
                 }
-                .padding(.bottom, 50)
+                //.padding(.bottom, 80)
                 
                 Spacer()
             }

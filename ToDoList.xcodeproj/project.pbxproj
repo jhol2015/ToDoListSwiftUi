@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		543608392A43D68100CD123B /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543608382A43D68100CD123B /* TLButton.swift */; };
 		54832D312A33C5AE00ACD817 /* ToDoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54832D302A33C5AE00ACD817 /* ToDoListApp.swift */; };
 		54832D332A33C5AE00ACD817 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54832D322A33C5AE00ACD817 /* MainView.swift */; };
 		54832D352A33C5AF00ACD817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54832D342A33C5AF00ACD817 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		543608382A43D68100CD123B /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 		54832D2D2A33C5AE00ACD817 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54832D302A33C5AE00ACD817 /* ToDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListApp.swift; sourceTree = "<group>"; };
 		54832D322A33C5AE00ACD817 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				54832D542A33E35700ACD817 /* RegisterView.swift */,
 				54832D562A33E3C000ACD817 /* ToDoListItemView.swift */,
 				54832D6A2A36207600ACD817 /* HeaderView.swift */,
+				543608382A43D68100CD123B /* TLButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				54832D4F2A33E2F900ACD817 /* ToDoListView.swift in Sources */,
 				54832D552A33E35700ACD817 /* RegisterView.swift in Sources */,
 				54832D5F2A33E54900ACD817 /* ProfileViewViewModel.swift in Sources */,
+				543608392A43D68100CD123B /* TLButton.swift in Sources */,
 				54832D4D2A33E2D700ACD817 /* ProfileView.swift in Sources */,
 				54832D592A33E4C900ACD817 /* User.swift in Sources */,
 				54832D692A33E5A800ACD817 /* ToDoListItemViewModel.swift in Sources */,
