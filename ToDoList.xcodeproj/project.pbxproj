@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		543608392A43D68100CD123B /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543608382A43D68100CD123B /* TLButton.swift */; };
+		5469941B2A48C21300910426 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5469941A2A48C21300910426 /* Extensions.swift */; };
 		54832D312A33C5AE00ACD817 /* ToDoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54832D302A33C5AE00ACD817 /* ToDoListApp.swift */; };
 		54832D332A33C5AE00ACD817 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54832D322A33C5AE00ACD817 /* MainView.swift */; };
 		54832D352A33C5AF00ACD817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54832D342A33C5AF00ACD817 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		543608382A43D68100CD123B /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
+		5469941A2A48C21300910426 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		54832D2D2A33C5AE00ACD817 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54832D302A33C5AE00ACD817 /* ToDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListApp.swift; sourceTree = "<group>"; };
 		54832D322A33C5AE00ACD817 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				54832D452A33DC1E00ACD817 /* GoogleService-Info.plist */,
 				54832D302A33C5AE00ACD817 /* ToDoListApp.swift */,
 				54832D342A33C5AF00ACD817 /* Assets.xcassets */,
+				5469941A2A48C21300910426 /* Extensions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				54832D572A33E3C000ACD817 /* ToDoListItemView.swift in Sources */,
 				54832D612A33E55600ACD817 /* ToDoListViewViewModel.swift in Sources */,
 				54832D652A33E57C00ACD817 /* LoginViewViewModel.swift in Sources */,
+				5469941B2A48C21300910426 /* Extensions.swift in Sources */,
 				54832D312A33C5AE00ACD817 /* ToDoListApp.swift in Sources */,
 				54832D5B2A33E4D300ACD817 /* ToDoListItem.swift in Sources */,
 				54832D512A33E32400ACD817 /* NewItemView.swift in Sources */,
